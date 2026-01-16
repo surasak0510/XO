@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Head from "next/dist/shared/lib/head";
 import { useEffect, useState } from "react";
 
