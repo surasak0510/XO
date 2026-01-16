@@ -1,0 +1,82 @@
+####################################
+# OS / Editor
+####################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+
+####################################
+# Environment variables
+####################################
+.env
+.env.*
+!.env.example
+
+####################################
+# Go
+####################################
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Go build output
+/bin/
+/dist/
+
+# Go workspace
+go.work
+go.work.sum
+
+####################################
+# Database (SQLite)
+####################################
+*.db
+*.sqlite
+*.sqlite3
+
+####################################
+# Next.js / Node
+####################################
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+####################################
+# Turbopack
+####################################
+.turbo/
+
+####################################
+# Coverage
+####################################
+coverage/
+*.lcov
+
+####################################
+# IDE
+####################################
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+*.iml
+
+####################################
+# Logs / Temp
+####################################
+logs/
+tmp/
+temp/
